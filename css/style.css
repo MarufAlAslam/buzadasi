@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'bahiana';
+    src: url('../fonts/Bahiana-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'chakra_petch';
+    src: url('../fonts/ChakraPetch-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'chakra_petch_bold';
+    src: url('../fonts/ChakraPetch-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'chakra_petch_medium';
+    src: url('../fonts/ChakraPetch-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'chakra_petch_semibold';
+    src: url('../fonts/ChakraPetch-SemiBold.ttf');
+}
+
+* {
+    font-family: 'bahiana';
+}
+
+body {
+    background-color: #3cdbf7;
+}
+
+body,
+html {
+    overflow-x: hidden !important;
+}
+
+.top {
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    z-index: 10;
+}
+
+.btn.position-relative.border-0.rounded-0 img.position-absolute {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.z-1 {
+    position: relative;
+    z-index: 100;
+}
+
+.btn {
+    font-size: 20px;
+}
+
+.img-fluid.d-block.mx-auto.logo-2 {
+    margin-top: -255px;
+    margin-bottom: -200px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.medium {
+    font-family: 'chakra_petch_medium';
+}
+
+.text-purple {
+    color: #593494;
+}
+
+.btn.position-relative.border-0.rounded-0.pe-5.pt-4.fs-2.text-white span {
+    transform: rotate(-4deg);
+    top: -2px;
+    left: 4px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h1 {
+    transform: rotate(-2deg);
+}
+
+.badgeHolder.position-relative img {
+    top: -300px;
+}
+
+.img-fluid.top-20 {
+    position: relative;
+    top: -5px;
+}
+
+.z-1.rotate {
+    position: relative;
+    transform: rotate(-4deg);
+    display: block;
+    padding-top: 13px;
+}
+
+.btn.position-relative.border-0.rounded-0.px-4.me-2.fs-1.text-purple.ttp {
+    top: -50px;
+}
+
+/* div.bg-white.py-5 {
+    position: relative;
+    margin-top: -275px;
+    bottom: 0;
+} */
+div.bg-white.py-5 {
+    position: relative;
+    margin-top: -153px;
+    box-shadow: 0 -50px white !important;
+}
+
+.text-center .text-center h1 span {
+    line-height: 10px;
+}
+
+.footer {
+    background-color: #593494;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .img-fluid.d-block.mx-auto.logo-2 {
+        margin-top: -69px;
+        margin-bottom: 0px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .badgeHolder.position-relative img {
+        top: -300px;
+        display: none;
+    }
+
+    .btn.position-relative.border-0.rounded-0.px-4.me-2.fs-1.text-purple.ttp {
+        top: -10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto !important;
+        margin-bottom: 30px;
+    }
+
+    div.bg-white.py-5 {
+        position: relative;
+        margin-top: 0;
+        box-shadow: 0 -50px white !important;
+    }
+
+    .footer .img-fluid.w-75 {
+        width: 100px !important;
+    }
+}

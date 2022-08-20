@@ -40,6 +40,12 @@ html {
     z-index: 1000;
 }
 
+.top {
+    height: 100vh;
+    height: auto;
+    overflow: hidden;
+}
+
 .img-fluid.left1 {
     top: -10px;
     position: relative;
